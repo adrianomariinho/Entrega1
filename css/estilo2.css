@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-family: 'Pacifico';
+	src: url("../fonts/Pacifico/Pacifico-Regular.ttf");
+	font-size: 1em;
+}
+body {
+	background-image: url("../img/fundo.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px	;
+
+}
+
+#menu {
+	margin: 26px 0;
+	margin-left: 800px;
+	margin-top: -50px;
+
+
+}
+#menu li {
+	display: inline-block;	
+	padding-right: 30px;
+
+
+}
+#menu li a {
+	color: black;
+	font-family: "OpenSans";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#IMAGEM {
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 600px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+#titulo{
+	margin-left: 500px;
+	font-size: 50px;
+	font-family: "Pacifico";
+	font-style:;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#linha{
+	margin-top: 27px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+#texto {
+	margin-top: 90px;
+	margin-left: 300px;
+	font-family: "Pacifico";
+}
+
+header {
+	width: 100%;
+	height: 100px; 	 	
+	margin-top: 10px;			
+	background-color: #8B4513;
+}
+
+#logotipo {
+	width: 92px;
+	margin-top: 3px;
+	margin-left: -50px;
+}
+
+#bloco_missao{
+	width: 50%;
+	height: 150px;
+	margin-left: 100px;
+	margin-top: 100px;
+	background-color: black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+#titulo_missao{
+	color:white;
+	font-family: "Pacifico";
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#texto_missao{
+	color:white;	
+	margin-left:  20px;
+	font-family: "Pacifico";
+	font-size: 16px;
+
+}
+#bloco_visao{
+	width: 50%;
+	height: 140px;
+	margin-left: 100px;
+	margin-top: 70px;
+	background-color: black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+#titulo_visao{
+	color:white;
+	font-family: "Pacifico";
+	margin-left: 20px
+}
+
+#texto_visao{
+	color:white;	
+	margin-left: 20px;
+	font-family: "Pacifico";
+	font-size: 16px;
+
+}
+#bloco_valores{
+	width: 50%;
+	height: 190px;
+	margin-left: 100px;
+	margin-top: 70px;
+	background-color: black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+#titulo_valores{
+	color:white;
+	font-family: "Pacifico";
+	margin-left: 20px;
+}
+
+#texto_valores{
+	color:white;	
+	margin-left: 20px;
+	font-family: "Pacifico";
+	font-size: 16px;
+
+
+}
+
+footer {
+	width:100%;
+	height:150px;
+	background-color: #8B4513;
+	margin-top: 50px;
+	font-family: "OpenSans";
+	color: #fff;
+
+}
+footer #rodape{
+	margin-left: 60px;
+}
+
