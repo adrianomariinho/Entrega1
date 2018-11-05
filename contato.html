@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Bom de Mais Chocolates</title>
+		
+		
+		<link rel="stylesheet" href="css/contato.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="path/to/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<!-- ==============	 LOGO E MENU   ============== -->
+		<header>
+				<div class="container">
+					<a href="index.html"><img id="logotipo"  src="img/logo2.png" alt="Logotipo"></a>
+				</div>
+
+				<nav id="menu">	
+					<ul>
+
+						<li><a href="Quem_somos.html">Quem Somos</a></li>
+						<li> <a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+
+					</ul>
+				</nav>
+				<hr id="linha">
+				
+		</header>	
+		<!-- ============== IMAGEM CENTRO   ============== -->	
+		<h1 id="titulo">Contato</h1>
+
+		<div id="bloco">
+			<form method="POST" action="form.php">
+				<div class="form-group" id="formulario">
+					<div class="col-xs-2">
+						<label for="ex1"><strong>Nome</strong> </label>
+						<input type="text" name="nome" id="ex1" class="form-control" placeholder="Digite seu Nome" required="">
+						<label for="email">E-mail:</label>
+						<input type="email" class="form-control" name="email" id="txtEmail" required id="email">
+						<label for="recado">Mensagem:</label>
+						<textarea class="form-control" name="recado" id="txtMensagem" col="148" rows="8" required></textarea>
+						<input type="submit" class="btn btn-primary" value="Enviar" id="botao">
+						<input type="reset" class="btn btn-default" value="Limpar" id="botao">
+					</div>	
+				</div >
+		</div>
+			
+
+			</form>
+		
+		<!-- ========= RODAPE  ==============/ -->
+		<footer>
+			<div id="rodape">
+				<h3>Bom de mais Chocolates</h3>
+				<p>Endereço</p>
+				<p>Tel:</p>
+			</div>
+		</footer>
+
+	</body>
+</html>
